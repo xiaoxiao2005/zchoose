@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>穿搭试衣 - 示例页（界面美化批注）</title>
+  <style>
+    /* 【界面美化-可替换】主题色：主色、背景色、按钮色，可整体替换成你的品牌色 */
+    :root {
+      --color-primary: #6366f1;
+      --color-bg: #f8fafc;
+      --color-card: #ffffff;
+      --color-text: #1e293b;
+      --color-text-muted: #64748b;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--color-bg); color: var(--color-text); }
+
+    /* 【界面美化-可替换】顶部导航：Logo 文字、导航项文案、背景色 */
+    .header {
+      background: var(--color-card);
+      padding: 0.75rem 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .header-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    /* 【界面美化-可替换】站点名称 / Logo 文字 */
+    .logo { font-size: 1.25rem; font-weight: 700; color: var(--color-primary); }
+    .nav a { margin-left: 1rem; color: var(--color-text-muted); text-decoration: none; }
+    .nav a:hover { color: var(--color-primary); }
+
+    .main { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    /* 【界面美化-可替换】首屏主标题、副标题文案 */
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #e0e7ff 0%, #f0f9ff 100%);
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+    .hero h1 { font-size: 1.75rem; margin: 0 0 0.5rem; color: var(--color-text); }
+    .hero p { margin: 0; color: var(--color-text-muted); font-size: 0.95rem; }
+
+    /* 【界面美化-可替换】按钮样式：圆角、字号、背景色（也可改 .btn 的 class 名或增加 .btn-primary 等） */
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: var(--color-primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover { opacity: 0.9; }
+    .btn-outline { background: transparent; color: var(--color-primary); border: 2px solid var(--color-primary); }
+
+    .actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.25rem; }
+
+    /* 【界面美化-可替换】卡片区块标题、卡片内标题与说明文字 */
+    .section-title { font-size: 1.15rem; margin-bottom: 1rem; color: var(--color-text); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+    .card {
+      background: var(--color-card);
+      border-radius: 10px;
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .card h3 { font-size: 1rem; margin: 0 0 0.35rem; }
+    .card p { margin: 0; font-size: 0.85rem; color: var(--color-text-muted); }
+
+    /* 【界面美化-可替换】占位图：可换成你的插图或图片路径 */
+    .card-img {
+      width: 100%;
+      height: 120px;
+      background: linear-gradient(145deg, #e2e8f0, #cbd5e1);
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- 【界面美化-可替换】顶部：站点名、导航链接文字 -->
+  <header class="header">
+    <div class="header-inner">
+      <span class="logo">穿搭试衣</span>
+      <nav class="nav">
+        <a href="#">首页</a>
+        <a href="#">衣库</a>
+        <a href="#">快速穿搭</a>
+        <a href="#">客服</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- 【界面美化-可替换】首屏主标题、副标题 -->
+    <section class="hero">
+      <h1>一键试穿，找到你的风格</h1>
+      <p>上传照片，选择搭配，生成专属三视图与 360° 展示</p>
+      <!-- 【界面美化-可替换】主按钮、次按钮文案 -->
+      <div class="actions">
+        <a class="btn" href="#">立即试穿</a>
+        <a class="btn btn-outline" href="#">看看衣库</a>
+      </div>
+    </section>
+
+    <!-- 【界面美化-可替换】区块标题、卡片标题与说明、按钮文字 -->
+    <h2 class="section-title">今日推荐</h2>
+    <div class="cards">
+      <div class="card">
+        <!-- 【界面美化-可替换】卡片占位图：可改为 <img src="你的图片路径"> -->
+        <div class="card-img" aria-hidden="true"></div>
+        <h3>休闲日常</h3>
+        <p>适合出门逛街、约会</p>
+        <button class="btn" style="margin-top: 0.5rem; width: 100%;">选择这套</button>
+      </div>
+      <div class="card">
+        <div class="card-img" aria-hidden="true"></div>
+        <h3>通勤简约</h3>
+        <p>职场、会议场合</p>
+        <button class="btn" style="margin-top: 0.5rem; width: 100%;">选择这套</button>
+      </div>
+      <div class="card">
+        <div class="card-img" aria-hidden="true"></div>
+        <h3>运动风</h3>
+        <p>运动、户外活动</p>
+        <button class="btn" style="margin-top: 0.5rem; width: 100%;">选择这套</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

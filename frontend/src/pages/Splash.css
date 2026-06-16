@@ -1,0 +1,67 @@
+/* 启动闪屏：黑屏 → 仅 Zchoose 发光出现 → 停留 → 淡出，背景保持纯黑不刺眼 */
+
+.splash {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow: hidden;
+  background: #000;
+  cursor: pointer;
+}
+
+.splash__hint {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgba(167, 139, 250, 0.8);
+  letter-spacing: 0.1em;
+}
+
+.splash__bg {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 1;
+  /* 全程保持纯黑，不再做整体闪亮，避免刺眼 */
+}
+
+.splash--black .splash__bg,
+.splash--brighten .splash__bg,
+.splash--hold .splash__bg,
+.splash--fadeout .splash__bg {
+  opacity: 1;
+}
+
+/* 【界面美化-可替换】品牌名：黑底上仅此字发光 */
+.splash__logo {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  background: linear-gradient(135deg, #a78bfa 0%, #c084fc 35%, #e879f9 70%, #c084fc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  /* 发光：仅 Zchoose 字带光晕，背景保持黑 */
+  filter: drop-shadow(0 0 12px rgba(167, 139, 250, 0.9))
+    drop-shadow(0 0 28px rgba(192, 132, 252, 0.6))
+    drop-shadow(0 0 48px rgba(167, 139, 250, 0.35));
+  transition: opacity 0.5s ease-out;
+}
+
+.splash--brighten .splash__logo,
+.splash--hold .splash__logo {
+  opacity: 1;
+}
+
+.splash--fadeout .splash__logo {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}

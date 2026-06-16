@@ -1,0 +1,107 @@
+[
+  {
+    "id": "refs_001.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "B_S结构下软件系统的测试分析_刘振雷.pdf"
+  },
+  {
+    "id": "refs_002.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "一种智能穿搭推荐方法_陈加昊.pdf"
+  },
+  {
+    "id": "refs_003.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "基于Java生态的Web应用用户鉴权立体化防护架构设计_郑秀琴.pdf"
+  },
+  {
+    "id": "refs_004.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "基于前后端分离技术的web开发框架设计_吴昌政.pdf"
+  },
+  {
+    "id": "refs_005.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "基于前后端分离的虚拟现实实验教学平台的设计与实现_叶泉.pdf"
+  },
+  {
+    "id": "refs_006.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "基于深度生成模型的二维虚拟试衣技术研究_罗炜豪.pdf"
+  },
+  {
+    "id": "refs_007.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "基于语义信息和生成对抗网络的虚拟试衣系统研究_宋阳.pdf"
+  },
+  {
+    "id": "refs_008.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "服装搭配与推荐系统的设计与实现_和树繁.pdf"
+  },
+  {
+    "id": "refs_009.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "知情同意规则在敏感个人信息保护中的具体适用研究_宋静.pdf"
+  },
+  {
+    "id": "refs_010.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "论我国生物识别信息的民法保护_郭景灏.pdf"
+  },
+  {
+    "id": "refs_011.pdf",
+    "source_zip": "参考文献.zip",
+    "title": "面向虚拟试衣的服装搭配推荐系统的设计与实现_白晨辰.pdf"
+  },
+  {
+    "id": "papers_012.pdf",
+    "source_zip": "论文.zip",
+    "title": "人机交互感知对虚拟试衣体验满意度的影响_阮艳雯.pdf"
+  },
+  {
+    "id": "papers_013.pdf",
+    "source_zip": "论文.zip",
+    "title": "基于个性化推荐的服装知识图谱构建_潘王蕾.pdf"
+  },
+  {
+    "id": "papers_014.pdf",
+    "source_zip": "论文.zip",
+    "title": "基于外观流和扩散模型的虚拟试衣_陈相宜.pdf"
+  },
+  {
+    "id": "papers_015.pdf",
+    "source_zip": "论文.zip",
+    "title": "基于扩散模型的多阶段一致可控虚拟试衣_孔东帅.pdf"
+  },
+  {
+    "id": "papers_016.pdf",
+    "source_zip": "论文.zip",
+    "title": "基于深度学习的虚拟换装技术的研究_石毅.pdf"
+  },
+  {
+    "id": "papers_017.pdf",
+    "source_zip": "论文.zip",
+    "title": "基于纹理特征学习的高精度虚拟试穿智能算法_刘玉叶.pdf"
+  },
+  {
+    "id": "papers_018.pdf",
+    "source_zip": "论文.zip",
+    "title": "服装推荐服务平台的研究与开发_郭玉芝.pdf"
+  },
+  {
+    "id": "papers_019.pdf",
+    "source_zip": "论文.zip",
+    "title": "社交网络用户图像敏感数据计量研究_杨瑞仙.pdf"
+  },
+  {
+    "id": "papers_020.pdf",
+    "source_zip": "论文.zip",
+    "title": "融合气象数据的协同过滤推荐服装智慧穿搭APP设计_赵子花.pdf"
+  },
+  {
+    "id": "papers_021.pdf",
+    "source_zip": "论文.zip",
+    "title": "面向跨模态数据融合细粒度特征的个性化服装推荐_田保军.pdf"
+  }
+]

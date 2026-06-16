@@ -1,0 +1,30 @@
+.leftnav {
+  width: 5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 0.5rem;
+  background: rgba(18, 18, 22, 0.98);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.leftnav__item {
+  padding: 0.6rem 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #71717a;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.leftnav__item:hover {
+  color: #c4b5fd;
+  background: rgba(167, 139, 250, 0.1);
+}
+
+.leftnav__item--active {
+  color: #e9d5ff;
+  background: rgba(167, 139, 250, 0.2);
+}

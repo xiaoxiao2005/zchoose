@@ -1,0 +1,190 @@
+.resale-publish {
+  padding: 1rem;
+  width: 100%;
+  max-width: 78rem;
+  margin: 0 auto;
+}
+
+.resale-publish__title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.resale-publish__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resale-publish__back-btn {
+  border: none;
+  background: transparent;
+  color: #a1a1aa;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.15rem 0.25rem;
+}
+
+.resale-publish__login-hint {
+  color: #a1a1aa;
+  margin-bottom: 1rem;
+}
+
+.resale-publish__login-hint a {
+  color: #a78bfa;
+}
+
+.resale-publish__back {
+  color: #a78bfa;
+  font-size: 0.9rem;
+}
+
+.resale-publish__fee {
+  background: rgba(167, 139, 250, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  border-radius: 8px;
+  padding: 0.6rem 0.85rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resale-publish__intro {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  line-height: 1.55;
+  margin: 0 0 1rem 0;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resale-publish__fee-note {
+  color: #71717a;
+  font-weight: normal;
+  margin-left: 0.35rem;
+}
+
+.resale-publish__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.resale-publish__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.resale-publish__label {
+  font-size: 0.85rem;
+  color: #d4d4d8;
+}
+
+.resale-publish__input {
+  padding: 0.5rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid rgba(63, 63, 70, 0.9);
+  background: rgba(24, 24, 27, 0.8);
+  color: #e4e4e7;
+  font-size: 0.9rem;
+}
+
+.resale-publish__textarea {
+  resize: vertical;
+  min-height: 4rem;
+}
+
+.resale-publish__upload-wrap {
+  position: relative;
+  border: 1px dashed rgba(113, 113, 122, 0.6);
+  border-radius: 8px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.resale-publish__file {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.resale-publish__preview {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.resale-publish__upload-placeholder {
+  color: #71717a;
+  font-size: 0.85rem;
+}
+
+.resale-publish__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resale-publish__chip {
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(63, 63, 70, 0.9);
+  background: rgba(39, 39, 42, 0.8);
+  color: #a1a1aa;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.resale-publish__chip--on {
+  background: rgba(167, 139, 250, 0.2);
+  border-color: rgba(167, 139, 250, 0.5);
+  color: #e9d5ff;
+}
+
+.resale-publish__error {
+  color: #f87171;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.resale-publish__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.resale-publish__btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: rgba(167, 139, 250, 0.9);
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.resale-publish__btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.resale-publish__cancel {
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}

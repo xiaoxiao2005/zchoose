@@ -1,0 +1,74 @@
+.support-review {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.support-review__title {
+  margin: 0 0 12px;
+}
+
+.support-review__filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.support-review__tag {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.support-review__tag--active {
+  border-color: #1677ff;
+  color: #1677ff;
+}
+
+.support-review__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.support-review__item {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.support-review__meta p {
+  margin: 0 0 6px;
+  word-break: break-all;
+}
+
+.support-review__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.support-review__actions button {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.support-review__error {
+  color: #cf1322;
+}
+
+.support-review__empty {
+  color: #888;
+}

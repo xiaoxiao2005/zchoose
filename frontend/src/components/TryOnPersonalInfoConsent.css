@@ -1,0 +1,75 @@
+.pi-consent {
+  margin: 0 0 1rem 0;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(167, 139, 250, 0.45);
+  background: rgba(167, 139, 250, 0.08);
+}
+
+.pi-consent__heading {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #e4e4e7;
+}
+
+.pi-consent__lead {
+  margin: 0 0 0.65rem 0;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #a1a1aa;
+}
+
+.pi-consent__details {
+  margin-bottom: 0.65rem;
+}
+
+.pi-consent__summary {
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: #c4b5fd;
+  user-select: none;
+}
+
+.pi-consent__legal {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0 0 0.25rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #d4d4d8;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pi-consent__legal ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.pi-consent__legal li {
+  margin-bottom: 0.45rem;
+}
+
+.pi-consent__label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #e4e4e7;
+  cursor: pointer;
+}
+
+.pi-consent__label input {
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.pi-consent__more {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+  color: #a1a1aa;
+}
+
+.pi-consent__more a {
+  color: #c4b5fd;
+  margin: 0 0.15rem;
+}

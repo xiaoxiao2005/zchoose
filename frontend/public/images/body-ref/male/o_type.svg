@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" aria-hidden="true">
+  <rect width="64" height="80" fill="#18181b"/>
+  <title>O�</title>
+  <ellipse cx="32" cy="40" rx="20" ry="24" fill="rgba(96,165,250,0.35)" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="32" cy="14" r="6" fill="rgba(96,165,250,0.35)" stroke="#60a5fa" stroke-width="1.2"/>
+</svg>

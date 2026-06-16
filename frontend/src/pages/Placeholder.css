@@ -1,0 +1,13 @@
+.placeholder {
+  padding: 2rem;
+  text-align: center;
+}
+
+.placeholder h2 {
+  margin: 0 0 0.5rem;
+  color: #e4e4e7;
+}
+
+.placeholder p {
+  color: #71717a;
+}

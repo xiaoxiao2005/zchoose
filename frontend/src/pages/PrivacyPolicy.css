@@ -1,0 +1,62 @@
+.privacy {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2rem;
+  color: #e4e4e7;
+}
+
+.privacy__title {
+  font-size: 1.35rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.privacy__updated {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  margin: 0 0 1.25rem 0;
+}
+
+.privacy__section {
+  margin-bottom: 1.25rem;
+}
+
+.privacy__section h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem 0;
+  color: #f4f4f5;
+}
+
+.privacy__section p,
+.privacy__section li {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #d4d4d8;
+  margin: 0 0 0.5rem 0;
+}
+
+.privacy__section ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.privacy__back {
+  margin-top: 1.5rem;
+}
+
+.privacy__back a,
+.privacy__back-btn {
+  color: #c4b5fd;
+}
+
+.privacy__back-btn {
+  font: inherit;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.privacy__back-alt {
+  color: #71717a;
+}

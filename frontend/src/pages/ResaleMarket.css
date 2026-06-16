@@ -1,0 +1,215 @@
+.resale {
+  padding: 1rem;
+}
+
+.resale__title {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.resale__intro {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  margin: 0 0 0.75rem;
+}
+
+.resale__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resale__btn {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background: rgba(167, 139, 250, 0.25);
+  color: #e9d5ff;
+  border: 1px solid rgba(167, 139, 250, 0.4);
+}
+
+.resale__btn--secondary {
+  background: rgba(63, 63, 70, 0.6);
+  color: #d4d4d8;
+  border-color: rgba(113, 113, 122, 0.5);
+}
+
+.resale__tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.resale__tab {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(24, 24, 27, 0.8);
+  color: #a1a1aa;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.resale__tab--active {
+  background: rgba(167, 139, 250, 0.18);
+  border-color: rgba(167, 139, 250, 0.5);
+  color: #f5f3ff;
+}
+
+.resale__filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.resale__filter-label {
+  font-size: 0.8rem;
+  color: #71717a;
+  margin-right: 0.25rem;
+  min-width: 2.5em;
+}
+
+.resale__tag {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: #a1a1aa;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.resale__tag--active {
+  background: rgba(167, 139, 250, 0.18);
+  border-color: rgba(167, 139, 250, 0.5);
+  color: #e9d5ff;
+}
+
+.resale__loading,
+.resale__empty {
+  color: #71717a;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.resale__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.resale__card {
+  border-radius: 0.75rem;
+  background: rgba(24, 24, 27, 0.9);
+  border: 1px solid rgba(39, 39, 42, 0.9);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.resale__card-img-wrap {
+  position: relative;
+  padding-top: 120%;
+  background: radial-gradient(circle at 20% 0%, #27272a, #09090b);
+}
+
+.resale__card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resale__card-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #52525b;
+}
+
+.resale__badge {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background: rgba(244, 244, 245, 0.15);
+  color: #e4e4e7;
+}
+
+.resale__card-body {
+  padding: 0.55rem 0.7rem 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.resale__card-title {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #e5e5e7;
+}
+
+.resale__card-desc {
+  font-size: 0.78rem;
+  color: #a1a1aa;
+  margin: 0;
+  max-height: 2.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resale__card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  font-size: 0.7rem;
+  color: #71717a;
+}
+
+.resale__card-tags span {
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  background: rgba(39, 39, 42, 0.9);
+}
+
+.resale__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+
+.resale__price {
+  font-weight: 600;
+  color: #f97316;
+  font-size: 0.9rem;
+}
+
+.resale__status {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+}
+
+@media (max-width: 640px) {
+  .resale {
+    padding: 0.75rem;
+  }
+  .resale__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+

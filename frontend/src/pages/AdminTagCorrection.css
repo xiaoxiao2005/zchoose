@@ -1,0 +1,231 @@
+.admin-tags {
+  padding: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.admin-tags__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.admin-tags__hint {
+  margin: 0 0 1rem;
+  color: #a1a1aa;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.admin-tags__code {
+  font-size: 0.8em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.admin-tags__unlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.admin-tags__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.admin-tags__input {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.25);
+  color: #fafafa;
+  border-radius: 8px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.9rem;
+  min-width: 140px;
+}
+
+.admin-tags__input--grow {
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+.admin-tags__select {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.35);
+  color: #fafafa;
+  border-radius: 8px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.9rem;
+}
+
+.admin-tags__btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  color: #fafafa;
+}
+
+.admin-tags__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.admin-tags__btn--ghost {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.admin-tags__btn--small {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.admin-tags__error {
+  color: #f87171;
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.admin-tags__empty {
+  color: #a1a1aa;
+  margin: 0.5rem 0;
+}
+
+.admin-tags__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #a1a1aa;
+}
+
+.admin-tags__check-all {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+.admin-tags__meta {
+  flex: 1;
+}
+
+.admin-tags__pager {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.admin-tags__batch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(167, 139, 250, 0.08);
+}
+
+.admin-tags__batch-label {
+  font-size: 0.85rem;
+  color: #e4e4e7;
+}
+
+.admin-tags__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.admin-tags__item {
+  display: flex;
+  gap: 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 0.65rem;
+  align-items: flex-start;
+}
+
+.admin-tags__check {
+  padding-top: 0.35rem;
+  cursor: pointer;
+}
+
+.admin-tags__thumb-wrap {
+  flex-shrink: 0;
+}
+
+.admin-tags__thumb {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.admin-tags__thumb--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #71717a;
+}
+
+.admin-tags__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.admin-tags__row-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: baseline;
+  font-size: 0.85rem;
+}
+
+.admin-tags__id {
+  color: #71717a;
+  font-variant-numeric: tabular-nums;
+}
+
+.admin-tags__name {
+  color: #e4e4e7;
+  word-break: break-all;
+}
+
+.admin-tags__textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.3);
+  color: #fafafa;
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+  font-size: 0.85rem;
+  font-family: ui-monospace, monospace;
+  resize: vertical;
+  min-height: 3.5rem;
+}
+
+.admin-tags__actions {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,159 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.2rem;
+  background: rgba(24, 24, 28, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.topbar__logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: linear-gradient(135deg, #a78bfa, #e879f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+
+.topbar__season-chip {
+  margin-left: 0.7rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(167, 139, 250, 0.45);
+  background: rgba(167, 139, 250, 0.14);
+  color: #d8b4fe;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.topbar__incentives {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topbar__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #a1a1aa;
+}
+
+.topbar__stat-label {
+  color: #d4d4d8;
+}
+
+.topbar__stat-value {
+  font-variant-numeric: tabular-nums;
+  color: #a1a1aa;
+}
+
+.topbar__points {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+}
+
+.topbar__user-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topbar__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.topbar__avatar--placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(167, 139, 250, 0.3);
+  border: 1px solid rgba(167, 139, 250, 0.5);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c4b5fd;
+  line-height: 1;
+}
+
+.topbar__username {
+  font-size: 0.9rem;
+  color: #e4e4e7;
+  max-width: 8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topbar__user-email {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+  max-width: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topbar__user {
+  padding: 0.35rem 0.75rem;
+  background: rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  border-radius: 6px;
+  color: #c4b5fd;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    padding: 0.5rem 0.75rem;
+    padding-top: calc(0.5rem + env(safe-area-inset-top, 0));
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .topbar__logo {
+    font-size: 1.1rem;
+  }
+  .topbar__season-chip {
+    margin-left: 0.25rem;
+    font-size: 0.72rem;
+    padding: 0.16rem 0.45rem;
+  }
+  .topbar__right {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .topbar__incentives {
+    gap: 0.5rem;
+  }
+  .topbar__stat {
+    font-size: 0.8rem;
+  }
+  .topbar__username {
+    max-width: 5rem;
+    font-size: 0.85rem;
+  }
+  .topbar__avatar {
+    width: 32px;
+    height: 32px;
+  }
+  .topbar__user {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.5rem 0.75rem;
+  }
+}

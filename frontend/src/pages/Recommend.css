@@ -1,0 +1,140 @@
+.recommend {
+  width: 100%;
+  max-width: 78rem;
+  margin: 0 auto;
+}
+
+.recommend__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.recommend__weather {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recommend__weather select {
+  padding: 0.35rem 0.6rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  color: #fff;
+}
+
+.recommend__weather-text {
+  font-size: 0.9rem;
+  color: #e4e4e7;
+}
+
+.recommend__occasion {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recommend__occasion > span {
+  font-size: 0.85rem;
+  color: #a1a1aa;
+}
+
+.recommend__tag {
+  padding: 0.35rem 0.65rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  color: #a1a1aa;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.recommend__tag--active {
+  background: rgba(167, 139, 250, 0.15);
+  color: #e9d5ff;
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.recommend__actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.recommend__btn {
+  padding: 0.4rem 0.75rem;
+  background: rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  border-radius: 6px;
+  color: #c4b5fd;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.recommend__suggestion {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid rgba(167, 139, 250, 0.5);
+}
+
+.recommend__hint {
+  font-size: 0.82rem;
+  color: #a78bfa;
+  margin: -0.35rem 0 0.75rem;
+}
+
+.recommend__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.recommend__card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.recommend__reason {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #a1a1aa;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 0.4rem 0.45rem;
+}
+
+.recommend__loading,
+.recommend__empty {
+  color: #71717a;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .recommend__head {
+    gap: 0.75rem;
+  }
+  .recommend__actions {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-end;
+  }
+  .recommend__btn {
+    min-height: 44px;
+  }
+  .recommend__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+}
